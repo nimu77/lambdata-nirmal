@@ -4,7 +4,7 @@
 
 ## Installation
 ```sh
-pip install -i https://test.pypi.org/simple/ lambdata-nirmal==1.0
+pip install -i https://test.pypi.org/simple/ lambdata-nirmal==1.3
 ```
 
 
@@ -18,6 +18,6 @@ print(enlarge(10))
 ```
 
 ```py
-from my_lambdata.my_mod1 import checks
+from my_lambdata.my_mod_one import checks
 checks(df)
 ```
