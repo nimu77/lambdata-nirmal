@@ -4,7 +4,7 @@
 
 ## Installation
 ```sh
-pip install -i https://test.pypi.org/simple/ lambdata-nirmal==1.3
+pip install -i https://test.pypi.org/simple/ lambdata-nirmal==1.5
 ```
 
 
