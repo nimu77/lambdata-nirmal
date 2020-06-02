@@ -4,7 +4,7 @@
 
 ## Installation
 ```sh
-pip install -i https://test.pypi.org/simple/ lambdata-nirmal==1.5
+pip install -i https://test.pypi.org/simple/ lambdata-nirmal==1.6
 ```
 
 
@@ -21,4 +21,10 @@ print(enlarge(10))
 ```py
 from my_lambdata.my_mod_one import checks_null
 checks_null(df)
+```
+
+### function that adds a column with full names for countries if abbreviated
+```py
+from my_lambdata.my_mod_two import add_state_names_column
+add_state_names_column()
 ```
