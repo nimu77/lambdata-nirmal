@@ -14,6 +14,10 @@ pip install -i https://test.pypi.org/simple/ lambdata-nirmal==1.0
 
 ```py
 from my_lambdata.my_mod import enlarge
+print(enlarge(10))
+```
 
-print(enlarge())
+```py
+from my_lambdata.my_mod1 import checks
+checks(df)
 ```
