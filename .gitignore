@@ -1,0 +1,5 @@
+# ignore artifacts from the distrbution process:
+
+build/
+dist/
+*.egg-info
