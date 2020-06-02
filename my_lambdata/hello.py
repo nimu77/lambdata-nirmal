@@ -1,5 +1,5 @@
 from my_lambdata.my_mod import enlarge
-from my_lambdata.my_mod1 import checks
+from my_lambdata.my_mod_one import checks
 import pandas as pd
 import numpy as np
 

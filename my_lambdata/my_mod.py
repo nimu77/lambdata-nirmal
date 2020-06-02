@@ -1,4 +1,4 @@
-# nimu/my_mod.py
+
 import pandas as pd
 
 def enlarge(n):
