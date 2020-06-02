@@ -13,7 +13,7 @@ setup(
     description="A short description",
     long_description=long_description,
     long_description_content_type="text/markdown", # required if using a md file for long desc
-    #license="MIT",
+    license="MIT",
     url="https://github.com/nimu77/lambdata-nirmal",
     #keywords="",
     packages=find_packages() # ["my_lambdata"]
