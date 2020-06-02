@@ -1,5 +1,5 @@
 from my_lambdata.my_mod import enlarge
-from my_lambdata.my_mod_one import checks
+from my_lambdata.my_mod_one import checks_null
 import pandas as pd
 import numpy as np
 
@@ -17,7 +17,7 @@ df = pd.DataFrame(
 
 print(df)
 
-checks(df)
+checks_null(df)
 # new_col(df)
 
 print(df)

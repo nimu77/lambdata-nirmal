@@ -11,13 +11,14 @@ pip install -i https://test.pypi.org/simple/ lambdata-nirmal==1.3
 
 ## Usage
 
-
+### enlarges input by 100.
 ```py
 from my_lambdata.my_mod import enlarge
 print(enlarge(10))
 ```
 
+### function to check dataframe for nulls.
 ```py
-from my_lambdata.my_mod_one import checks
-checks(df)
+from my_lambdata.my_mod_one import checks_null
+checks_null(df)
 ```

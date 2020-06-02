@@ -1,6 +1,7 @@
 import pandas as pd
 
-def checks(a):
+def checks_null(a):
+    '''checks to see if dataframe has null values'''
     a = pd.DataFrame(a)
 
     if a.isnull().values.any():
