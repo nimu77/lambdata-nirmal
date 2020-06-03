@@ -29,9 +29,7 @@ from my_lambdata.my_mod_two import add_state_names_column
 add_state_names_column()
 ```
 
-### function that adds three new columns to a
-### dataframe after converting a column to a datetime
-### format
+### function that adds three new columns to a dataframe after converting a column to a datetime format
 ```py
 from my_lambdata.my_mod_three import return_year_month_date_columns
 return_year_month_date_columns()
