@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="lambdata-nirmal",  # the name that you will install via pip
-    version="1.6",
+    version="1.7",
     author="Nirmal Thapa",
     author_email="nirmal-thapa@lambdastudents.com",
     description="A short description",
