@@ -1,7 +1,7 @@
 import pandas as pd
 
-def return_year_month_date_columns(my_df):
 
+def return_year_month_date_columns(my_df):
     '''
     Adds three columns to a dataframe.
 
@@ -24,12 +24,10 @@ def return_year_month_date_columns(my_df):
     return new_df
 
 
-
-
 if __name__ == '__main__':
 
     df = pd.DataFrame({"Date": ['20180206', '20190307',
-                        '20150621', '20191222']})
+                                '20150621', '20191222']})
 
     print(df)
 

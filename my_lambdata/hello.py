@@ -10,9 +10,9 @@ print(enlarge(10))
 
 
 df = pd.DataFrame(
-            {"a": [4, 5, 6],
-            "b": [7, 8, np.NaN],
-            "c": [9, np.NaN, 11]})
+    {"a": [4, 5, 6],
+     "b": [7, 8, np.NaN],
+     "c": [9, np.NaN, 11]})
 
 
 print(df)
