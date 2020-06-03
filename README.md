@@ -4,7 +4,7 @@
 
 ## Installation
 ```sh
-pip install -i https://test.pypi.org/simple/ lambdata-nirmal==1.6
+pip install -i https://test.pypi.org/simple/ lambdata-nirmal==1.7
 ```
 
 
@@ -27,4 +27,22 @@ checks_null(df)
 ```py
 from my_lambdata.my_mod_two import add_state_names_column
 add_state_names_column()
+```
+
+### function that adds three new columns to a dataframe after converting a column to a datetime format
+```py
+from my_lambdata.my_mod_three import return_year_month_date_columns
+add_columns()
+```
+
+### class
+```sh
+class DateTime():
+  attributes: year
+              month
+              date
+              hour
+              minute
+              seconds
+  methods: timeline()
 ```
