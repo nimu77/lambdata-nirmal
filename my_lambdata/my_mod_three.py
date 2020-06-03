@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def return_year_month_date_columns(my_df):
+def add_columns(my_df):
     '''
     Adds three columns to a dataframe.
 
@@ -31,6 +31,6 @@ if __name__ == '__main__':
 
     print(df)
 
-    corr_df = return_year_month_date_columns(df)
+    corr_df = add_columns(df)
 
     print(corr_df)
